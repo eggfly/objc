@@ -1,0 +1,9 @@
+make s=app.m
+
+hello.m: In function ‘main’:
+hello.m:28:5: warning: ‘Number’ may not respond to ‘+new’ [enabled by default]
+     Number *myNumber = [Number new]; // equal to [[Number alloc] init]
+     ^
+hello.m:28:5: warning: (Messages without a matching method signature [enabled by default]
+hello.m:28:5: warning: will be assumed to return ‘id’ and accept [enabled by default]
+hello.m:28:5: warning: ‘...’ as arguments.) [enabled by default]
